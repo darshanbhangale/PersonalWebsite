@@ -1,0 +1,154 @@
+body{
+    color :#40514E;
+    margin: 0;
+    text-align: center;
+    /* text align ---> aligns all elements in it which are block or inline type to center */
+    /* from google froms */
+    font-family: 'Merriweather', serif;
+}
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+.pro{
+    text-decoration: underline;
+}
+h1{
+    font-size: 5.625rem;
+    color:#66BFBF;
+    /* if body had a font size of 2 em the h1 (its child) will ge a font size of (5.625+2)em */
+    /* better use rem  */
+    /* 16px = 100% = 1em */
+    /* margin: top 50px; */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    /* width: 10%;
+    margin: 0 auto 0 auto; */
+    /* auto --> this aligns as it should be in the center adjusting the margin */
+}
+h2{
+    color:#66BFBF;
+    /* line-height: 2; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    border-style: dotted none none none;
+    width: 5%;
+    border-width: 6px;
+    color: #EAF6F6;
+}
+p{
+    line-height: 2;
+
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.programmer{
+    font-weight: normal;
+}
+.top-container{
+    padding-top: 100px;
+    position: relative;
+    background-color: #E4F9F5;
+}
+
+.top-cloud{
+    position: absolute;
+
+      right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+     left: 250px;
+    bottom: 300px;
+}
+.middle-container{
+    margin:100px 0;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+}
+.profile-pic{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+}
+.skill-row{
+    width: 50%;
+    margin: 150px auto 150px auto;
+    text-align: left;
+
+}
+.skills-img1{
+    width: 25%;
+    border-radius: 100%;  
+    /* height: auto; */
+    border-style: solid;
+    margin-right: 30px;
+    float: left;
+}
+.skills-img2{
+    width: 25%;
+    border-radius: 100%;  
+    /* height: auto; */
+    border-style: solid;
+    margin-left: 30px;
+    float: right;
+    /* clear: left; --> undo what a float does and doesnt let wrap text from left */
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact-message{
+    margin:40px auto 60px auto;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC48D);
+    text-decoration: none;
+  }
+  .copyright{
+      color: #EAF6F6;
+      font-size: 0.75rem;
+      padding: 20px 0;
+  }
+
